@@ -94,15 +94,15 @@ const HeadContent = (props) => {
 						<ul>
 							<li className="bold"> 
 								<i className="material-icons">loyalty</i>
-								&nbsp&nbsp&nbsp&nbsp PRODUK ORIGINAL & TERJAMIN
+								PRODUK ORIGINAL & TERJAMIN
 							</li>
 							<li className="bold"> 
 								<i className="material-icons">assignment</i>
-								&nbsp&nbsp&nbsp&nbsp RIBUAN FASHION BRAND
+								RIBUAN FASHION BRAND
 							</li>
 							<li className="bold"> 
 								<i className="material-icons">autorenew</i>
-								&nbsp&nbsp&nbsp&nbsp GRATIS PENGEMBALIAN
+								GRATIS PENGEMBALIAN
 							</li>
 						</ul>
 					</div>
