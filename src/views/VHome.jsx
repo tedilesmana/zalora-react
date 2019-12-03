@@ -8,7 +8,7 @@ class VHome extends Component {
 
   render() {
     return (
-      <div>
+      <div className="p-5">
       	<HeadContent />
       	<Event />
       	<Brand />
