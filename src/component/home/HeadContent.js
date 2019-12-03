@@ -1,5 +1,30 @@
 import React from 'react';
 
+
+// function left_btn_change(){
+// 	console.log('ok');
+// }
+
+// function left_btn_remove(){
+// 	console.log('ok');
+// }
+
+// function right_btn_change(){
+// 	console.log('ok');
+// }
+
+// function right_btn_remove(){
+// 	console.log('ok');
+// }
+
+// function right_href(){
+// 	window.location.href = 'http://localhost/babastudio/ujian#';
+// }
+
+// function left_href(){
+// 	window.location.href = 'http://localhost/babastudio/ujian#';
+// }
+
 const HeadContent = (props) => {
   return (
       <div>
@@ -13,19 +38,19 @@ const HeadContent = (props) => {
 						<ul>
 							<li className="bold">
 								<i className="material-icons">loyalty</i>
-								&nbsp&nbsp&nbsp&nbsp PRODUK ORIGINAL & TERJAMIN
+								PRODUK ORIGINAL & TERJAMIN
 							</li>
 							<li className="bold">
 								<i className="material-icons">assignment</i>
-								&nbsp&nbsp&nbsp&nbsp RIBUAN FASHION BRAND
+								RIBUAN FASHION BRAND
 							</li>
 							<li className="bold">
 								<i className="material-icons">autorenew</i>
-								&nbsp&nbsp&nbsp&nbsp GRATIS PENGEMBALIAN
+								GRATIS PENGEMBALIAN
 							</li>
 							<li className="bold">
 								<i className="material-icons">help_outline</i>
-								&nbsp&nbsp&nbsp&nbsp PERTANYAAN?
+								PERTANYAAN?
 							</li>
 						</ul>
 					</div>
@@ -37,7 +62,7 @@ const HeadContent = (props) => {
 
 				<div className="c-box">
 					<div className="t-box">
-						<div className="l-box" onmouseover="left_btn_change()" onmouseout="left_btn_remove()" onclick="left_href()">
+						<div className="l-box">
 							<div className="text-tlc">
 								<h1>Everything Mush Go!</h1>
 								<h1 className="text-banner">UP TO 70% OFF <br/> + EKSTRA 20% OFF</h1>
@@ -45,7 +70,7 @@ const HeadContent = (props) => {
 							<div className="btn-left"><i className="material-icons md-48">arrow_left</i> WOMENS</div>
 						</div>
 
-						<div className="r-box" onmouseover="right_btn_change()" onmouseout="right_btn_remove()" onclick="right_href()">
+						<div className="r-box">
 							<div className="text-brc">
 								<div className="text">
 									<div className="t-text">

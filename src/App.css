@@ -114,8 +114,8 @@ body{
   color: black;
   width: auto;
   position: relative;
-  padding-right: 10%;
-  padding-left: 10%;
+  padding-right: 6%;
+  padding-left: 6%;
   width: 80%;
 }
 
@@ -472,17 +472,16 @@ body{
   list-style: none;
   float: left;
   margin-bottom: 30px;
-  transition: .3s;
-  opacity: 0;
+  /*transition: .3s;
   -webkit-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
   transform: translateY(-100%);
   -webkit-transition: .8s ease;
   -moz-transition: .8s ease;
   -o-transition: .8s ease;
-  transition: .8s ease;
+  transition: .8s ease;*/
 }
-
+/*
 #brand .logo ul .style{
   opacity: 1;
   -webkit-transform: translateY(0);
@@ -493,7 +492,7 @@ body{
   -o-transition: .8s ease;
   transition: .8s ease;
 }
-
+*/
 #brand .logo ul li:hover{
   opacity: .3;
   border-radius: 10px;

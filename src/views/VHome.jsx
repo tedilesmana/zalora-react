@@ -8,11 +8,19 @@ class VHome extends Component {
 
   render() {
     return (
-      <div className="p-5">
-      	<HeadContent />
-      	<Event />
-      	<Brand />
-      	<NewProduk />
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12"> 
+          	<HeadContent />
+            <div className="mb-5 pb-5">
+          	 <Event />
+            </div>
+            <div className="mt-5 pt-5">
+          	 <Brand />
+            </div>
+          	<NewProduk />
+          </div>
+        </div>
       </div>
     );
   }
